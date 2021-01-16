@@ -1,4 +1,5 @@
 import axios from "axios";
+// eslint-disable-next-line
 import { OrderLocationData, OrderPayload } from "./Orders/Types";
 
 const API_URL = 'https://quinalha-dsdeliver.herokuapp.com';
