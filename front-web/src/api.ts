@@ -2,7 +2,7 @@ import axios from "axios";
 // eslint-disable-next-line
 import { OrderLocationData, OrderPayload } from "./Orders/Types";
 
-const API_URL = 'https://quinalha-dsdeliver.herokuapp.com';
+const API_URL = process.env.REACT_APP_API_URL;
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 
 export function fetchProducts() {
